@@ -18,6 +18,7 @@ import java.util.List;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 
 public class Aluno {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
